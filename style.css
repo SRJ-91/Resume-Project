@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.container {
+    border: 1px black solid;
+    border-radius: 10px;
+    border-color: blue;
+    box-shadow: 5px 5px grey;
+    padding: 10px;
+    background-color: beige;
+}
+
+.header-block {
+    text-align: center;
+}
+
+.name {
+    font-size: 28px;
+}
+
+.professional-experience,
+.education,
+.final-heading,
+.msum-heading,
+.ndscs-heading,
+.edinburg-heading,
+.details {
+    font-size: 12px;
+    font-family: 'Cormorant Infant', serif;
+}
+
+.cbp-heading,
+.allied-heading,
+.wcrjc-heading,
+.sentry-heading,
+.msum-heading,
+.ndscs-heading,
+.edinburg-heading,
+.final-heading {
+    font-size: 20px;
+}
